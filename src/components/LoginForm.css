@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family:"CustomFont";
+}
+
+@font-face {
+    font-family: "CustomFont";
+    src: ur1(" ../fonts/RolexLight.woff2");
+}
+.page
+  { height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+
+.cover
+{
+background-color:rgb(238, 234, 227);
+width: 30em;
+height: 35em;
+position: relative; border-radius: 1em;
+box-shadow: 0 0.188em 1.550em rgb(156, 156, 156); display: flex;
+flex-direction: column;
+align-items: center;
+justify-content:space-around;
+}
+
+.alt-login div {
+    width: 190%;
+    height: 90%;
+    border-radius: 0.25em;
+     background-position: center; 
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    }
+
+
+
+
+input:focus 
+{
+    outline-color: rgb(11, 134, 187);
+    }
+
+.login-btn {
+    width: 40%;
+    height: 2em;
+    background-color: rgb(13, 132, 206);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 0.25em;
+    cursor: pointer;
+}
+.login-btn:hover{
+     transform: scale (1.25); 
+}
+
+.text {
+   position: relative;
+bottom:1em;
+font-size: 29px;
+}
+
+.hide{
+    display: none; 
+}
+.login-popup
+ {
+position: absolute;
+height: 30em;
+width: 30em;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border-radius: 0.25em;
+background-color: black;
+color:white;
+bottom: 0;
+transform:scale(1);
+ }
+ 
+ .cont{
+    height: 500px;
+    width: 100px;
+ }
+
+.tx{
+    width: 200px;
+    height: 31px;
+}
+
+ .pwd{
+    width: 200px;
+    height: 31px;
+ }
+
+ .login-btn{
+    margin-top: 60px;
+    margin-left: 46px;
+    text-align: center;
+    width: 97px;
+ }
+
+ 
